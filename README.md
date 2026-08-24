@@ -8,6 +8,8 @@ It is a folder of files you download onto your own computer. Inside it are writt
 
 The instructions also save the jobs as short commands. You type `/explain terminal` instead of writing out what kind of answer you want. And anything about how you like to work lives in files inside the folder, above all `CLAUDE.md`, which is plain text you can read and change. Nothing is hidden, and nothing leaves your computer except what you type into the conversation.
 
+If this turns out to be useful to you, a star on the repo helps other people find it.
+
 ## How it works
 
 The folder is ordinary text files. Nothing in it is compiled, and nothing runs on its own. `CLAUDE.md` holds the standing instructions: explain each new word the first time it appears, one step at a time, ask before changing a file. Each folder under `.claude/skills` is one named job, written as plain markdown you can open and read.
