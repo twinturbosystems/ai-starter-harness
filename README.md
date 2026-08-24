@@ -8,11 +8,27 @@ It is a folder of files you download onto your own computer. Inside it are writt
 
 The instructions also save the jobs as short commands. You type `/explain terminal` instead of writing out what kind of answer you want. And anything about how you like to work lives in files inside the folder, above all `CLAUDE.md`, which is plain text you can read and change. Nothing is hidden, and nothing leaves your computer except what you type into the conversation.
 
+## How it works
+
+The folder is ordinary text files. Nothing in it is compiled, and nothing runs on its own. `CLAUDE.md` holds the standing instructions: explain each new word the first time it appears, one step at a time, ask before changing a file. Each folder under `.claude/skills` is one named job, written as plain markdown you can open and read.
+
+When you point an assistant at the folder, it reads those instructions before it answers you. From then on its behavior changes for everything you ask, not just the first question. It is not a program that starts up, and nothing is installed on your computer. It is instructions the assistant chooses to follow.
+
+The saved jobs are why you can type one short word instead of re-explaining what kind of answer you want. `/start-here` picks a first project with you. `/explain` defines one term in plain English. `/first-project` builds something small with you, step by step. `/what-happened` recaps what changed. `/stuck` helps when something breaks. `/safe-mode` lists what the assistant will and will not do here.
+
+Your own details live in files in the folder that you can open and edit. `CLAUDE.md` is where you change how the assistant talks to you and what it is allowed to do, in plain text, with no special syntax to learn. When you ask it to keep a log, it writes one into `notes/learning-log.md`, starting from `templates/learning-log.md`. Those files sit on your machine, and the folder does not sync or upload anything on its own.
+
+One honest limitation. An assistant follows instructions, it does not enforce them the way a locked-down program does, so the guardrails in `CLAUDE.md` are strong defaults rather than a guarantee. Read what it proposes before you say yes. Claude Code's own permission prompts stay on in this folder, and those are the part that genuinely stops and asks.
+
 ## What you need first
 
-Claude Code. It is Anthropic's assistant that runs in a terminal window on your computer. Install it by following the official guide: https://docs.anthropic.com/en/docs/claude-code
+An AI assistant. This kit works with Claude Code, with Codex, or with a browser chat like ChatGPT. Claude Code is the smoothest of the three, because the folder is built for it: it reads the instructions by itself and the commands work exactly as typed.
+
+Claude Code is Anthropic's assistant that runs in a terminal window on your computer. Install it by following the official guide: https://docs.anthropic.com/en/docs/claude-code
 
 Claude Code signs in with a Claude account. If you do not have one yet, it walks you through creating one the first time you run it.
+
+If you would rather use Codex or a browser chat, download the folder first the same way, then follow `ONE-PROMPT.md` for the exact steps and the prompt to paste.
 
 ## Download the kit
 
@@ -36,6 +52,16 @@ Two other ways to get the same folder, if you prefer them:
 5. Type `/first-project` when you are ready to build. Expect a series of small steps, one at a time, ending with you opening the thing you made.
 
 That is the whole setup. The terminal is the only new tool you need today.
+
+## Set it up in your assistant
+
+Downloading the folder above is still the first step. This is how you switch that folder on inside the assistant you already use.
+
+- Claude Code: no prompt needed. Open a terminal in the folder, run `claude`, accept the one-time trust prompt, and type a command. That is the five steps above.
+- Codex CLI: run it inside the folder. It reads `AGENTS.md` by itself, and one short paste-in prompt covers the rest.
+- ChatGPT or another browser chat: there is no folder there, so you attach the instruction files to the chat and paste one setup prompt.
+
+The exact steps and copy-ready prompts for all three are in [ONE-PROMPT.md](ONE-PROMPT.md).
 
 ## What you can type
 
