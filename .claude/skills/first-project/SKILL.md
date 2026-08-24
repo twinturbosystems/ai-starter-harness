@@ -2,6 +2,7 @@
 name: first-project
 description: Guided build of one tiny real thing with checkpoints, ending with the person opening the result. Use when the person types /first-project, or after /start-here has picked a project.
 user-invocable: true
+allowed-tools: Read, Write, Edit
 argument-hint: [optional: which project, for example links page or to-do script]
 ---
 

@@ -2,6 +2,7 @@
 name: what-happened
 description: Plain-words recap of what changed in this folder during the conversation and why. Use when the person types /what-happened, asks what just happened, or seems unsure what the assistant did.
 user-invocable: true
+allowed-tools: Read, Glob
 argument-hint: [optional: a specific file or step to explain]
 ---
 

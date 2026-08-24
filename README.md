@@ -95,7 +95,7 @@ You can see the full list at any time with `/safe-mode`. Those rules live in `CL
 
 I have spent fourteen years in security and I now build real things with AI agents, in public, with the failures left in. The tools are good. The on-ramp is not. Most guides start three steps past where a beginner actually is. I wanted a folder you can open on day one that meets you where you are.
 
-## The other two kits
+## The other three kits
 
 Same idea, different job. Each is a separate folder you download the same way.
 
@@ -106,6 +106,10 @@ Read first: https://github.com/twinturbosystems/family-ops-harness
 Security Starter Kit, for people who are new to security and want their own accounts, devices, and small business locked down.
 Download: https://github.com/twinturbosystems/security-starter-harness/archive/refs/heads/main.zip
 Read first: https://github.com/twinturbosystems/security-starter-harness
+
+GovCon Starter Kit, for a solo government contractor who wins prime contracts and delivers through subcontractors and teaming partners.
+Download: https://github.com/twinturbosystems/govcon-starter-harness/archive/refs/heads/main.zip
+Read first: https://github.com/twinturbosystems/govcon-starter-harness
 
 ## More
 

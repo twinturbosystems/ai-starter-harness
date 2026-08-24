@@ -2,6 +2,7 @@
 name: explain
 description: Plain-English explanation of one technical term, with one analogy and one concrete example, in 120 words or fewer. Use when the person types /explain followed by a word or phrase, or asks what something means.
 user-invocable: true
+allowed-tools: Read
 argument-hint: <term or phrase>
 ---
 

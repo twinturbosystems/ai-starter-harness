@@ -2,6 +2,7 @@
 name: start-here
 description: Five-minute orientation for someone new to AI tools. Asks two questions, offers three tiny first projects, and picks one together. Use when the person types /start-here or says they do not know where to begin.
 user-invocable: true
+allowed-tools: Read
 argument-hint: [optional: a sentence about what you want to make]
 ---
 

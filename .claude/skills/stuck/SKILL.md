@@ -2,6 +2,7 @@
 name: stuck
 description: Debug coaching for beginners. Asks three questions before touching anything, then fixes the problem together, one change at a time. Use when the person types /stuck, says something is broken, or pastes an error.
 user-invocable: true
+allowed-tools: Read, Edit
 argument-hint: [optional: paste the error or describe what went wrong]
 ---
 

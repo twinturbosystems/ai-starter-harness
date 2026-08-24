@@ -2,6 +2,7 @@
 name: safe-mode
 description: Lists exactly what the assistant will and will not do inside this folder, and how to change those limits. Use when the person types /safe-mode or asks what the assistant is allowed to do here.
 user-invocable: true
+allowed-tools: Read
 ---
 
 # Safe mode
