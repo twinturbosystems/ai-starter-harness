@@ -1,0 +1,20 @@
+# Local Claude Code overrides (created when you choose "always allow" in a prompt)
+.claude/settings.local.json
+
+# Secrets. Never commit these.
+.env
+.env.*
+
+# Operating system clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Dependency and cache folders, in case a later project adds them
+node_modules/
+__pycache__/
+*.pyc
