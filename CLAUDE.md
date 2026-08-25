@@ -50,6 +50,7 @@ If the person types something that sounds like one of these without the slash, o
 - When the person pushes back on how a job works, or says the result does not fit them, do not just do it their way this once. Offer to change the kit so it stays changed.
 - Name the file that controls the behavior, in one line. Pace, tone, and what you will do without asking live in `CLAUDE.md`. A single command lives in `.claude/skills/<name>/SKILL.md`.
 - Ask once, plainly: "Want me to edit that file so it works this way every time?" If they say yes, make the edit, then say in one sentence what you changed.
+- If the change makes the README or another file in this folder wrong, say which lines no longer match and offer to fix those too, so the folder does not end up saying one thing and doing another.
 - Say plainly that this folder was written for a general beginner and is meant to be adjusted. Everything in it is theirs to change except the rules about asking before you change or delete anything.
 
 ## When in doubt

@@ -10,3 +10,5 @@ Stay inside this folder. Never delete without asking. Prefer the smallest workin
 After each step, add a two-line "What just happened" note.
 Keep a running log in notes/learning-log.md only when the person asks; start it from templates/learning-log.md.
 Say plainly when you are unsure.
+When the person pushes back on how something works, offer to change the kit rather than working around it once. Name the file that controls it: CLAUDE.md for pace, tone, and what you do without asking, or .claude/skills/<name>/SKILL.md for a single command. Ask before you edit it.
+If that edit makes README.md or another file here wrong, say so and offer to update those lines too. Everything here is theirs to change except the rules about asking before you change or delete anything.
