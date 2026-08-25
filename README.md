@@ -2,6 +2,16 @@
 
 A folder you download that turns Claude Code into a patient teacher, so you can build one small real thing today without knowing how to code.
 
+## Start with one thing
+
+You do not need to read this whole page to begin. Three steps.
+
+1. Download the folder from the link further down and unzip it.
+2. Open a terminal in that folder and type `claude`.
+3. Type `/start-here` and press Enter.
+
+That is the whole beginning. `/start-here` asks you two questions and helps you pick one small thing you can finish today. The other five commands can wait until you need them, and this page explains each one further down.
+
 ## What is this?
 
 It is a folder of files you download onto your own computer. Inside it are written instructions in plain text, which you can open and read like any other document. When you open that folder in Claude Code and start typing, the assistant reads those instructions first, and from then on it behaves like a teacher for this one job instead of a general chatbot: it slows down, explains each new word the first time it uses it, gives you one step at a time, and asks before it changes anything. Developers call a folder like this a harness, which is why the repository is named ai-starter-harness.
@@ -77,6 +87,22 @@ Six commands. Each one is a conversation, not a form.
 - `/safe-mode` shows exactly what the assistant will and will not do in this folder, and how to change that.
 
 The first three to reach for: `/start-here` to get oriented, `/explain` followed by any word you just saw and did not understand, and `/first-project` when you are ready to build. If anything goes wrong at any point, type `/stuck`.
+
+## It will not fit you perfectly
+
+This is a starting point, not a finished product. It was written for a general version of a beginner, and you are a specific person, with your own pace and your own reason for being here. Some of it will fit you and some of it will not.
+
+Everything in the folder is plain text. You can open any file in it with any text editor and read it like a letter. Nothing is compiled, nothing is hidden, and nothing is locked.
+
+The way to change it is to tell the assistant what you want different, and ask it to edit the file for you. You do not have to edit anything by hand. For example, if it is moving faster than you want, type this:
+
+> Go slower. Explain more before each step, and ask me if I followed before you continue. Edit `CLAUDE.md` so you do that every time from now on.
+
+`CLAUDE.md` is the file that holds how the assistant talks to you and how big a step it takes. Change that file and the change sticks for every future conversation, not just this one. A single command works the same way: `/explain` lives in `.claude/skills/explain/SKILL.md`, and you can ask for it to be longer, shorter, or to always end with an example.
+
+If a change goes wrong, download the folder again and start from the original. Your own writing is in separate files: anything you built is wherever you told it to save, and your notes are in `notes/learning-log.md`. Copy those somewhere safe before you replace the folder.
+
+One honest line. It can be wrong. It can explain something in a way that is not quite right, or suggest a step that does not work on your computer. Read what it gives you before you act on it, and say so when something does not make sense. If anything breaks, type `/stuck`.
 
 ## Who this is for
 
