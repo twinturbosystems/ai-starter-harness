@@ -36,6 +36,7 @@ You are working with someone who is new to AI tools and may be new to the termin
 
 The person can type these commands. When they do, follow the matching SKILL.md in `.claude/skills/`.
 
+- `/start`, also triggered by the plain words "Start the kit", the first thing anyone runs here
 - `/start-here` orientation and picking a first project
 - `/explain` one term, plain English, under 120 words
 - `/first-project` guided build with checkpoints
@@ -52,6 +53,10 @@ If the person types something that sounds like one of these without the slash, o
 - Ask once, plainly: "Want me to edit that file so it works this way every time?" If they say yes, make the edit, then say in one sentence what you changed.
 - If the change makes the README or another file in this folder wrong, say which lines no longer match and offer to fix those too, so the folder does not end up saying one thing and doing another.
 - Say plainly that this folder was written for a general beginner and is meant to be adjusted. Everything in it is theirs to change except the rules about asking before you change or delete anything.
+
+## When the person is stuck
+
+When someone says they are stuck, that nothing happened, or that something is broken, work out which state they are actually in first, by asking one short question if you have to, then give them one next action. Do not paste a troubleshooting list. `docs/STUCK.md` is written for them to read on their own; use it as your source for the single action, not as something to reproduce in the conversation.
 
 ## When in doubt
 

@@ -1,22 +1,53 @@
 # AI Starter Kit
 
-A folder you download that turns Claude Code into a patient teacher, so you can build one small real thing today without knowing how to code.
+This kit helps you build one small, real thing today, without knowing how to code. You download a folder, open it in an AI assistant, and the assistant becomes a patient teacher for that one job instead of a general chatbot.
 
-## Start with one thing
+## What you need first
 
-You do not need to read this whole page to begin. Three steps.
+- A Mac, Windows, or Linux computer.
+- An account with an AI assistant. Claude Code is the smoothest, because this folder is built for it. Install it from the official guide at https://docs.anthropic.com/en/docs/claude-code and it walks you through creating a Claude account the first time you run it.
 
-1. Download the folder from the link further down and unzip it.
-2. Open a terminal in that folder and type `claude`.
-3. Type `/start-here` and press Enter.
+Choose a kit now, then finish setup on a Mac, Windows, or Linux computer. On your phone? Save this page and come back to it there.
 
-That is the whole beginning. `/start-here` asks you two questions and helps you pick one small thing you can finish today. The other five commands can wait until you need them, and this page explains each one further down.
+## Download the kit
+
+https://github.com/twinturbosystems/ai-starter-harness/archive/refs/heads/main.zip
+
+## Three steps to set it up
+
+1. Unzip the file you just downloaded. You get a folder called `ai-starter-harness-main`.
+2. Open a terminal in that folder and type `claude`, then press Enter. A terminal is the plain text window where you type commands to your computer.
+3. Say yes when it asks whether you trust the files in this folder. It asks once per folder.
+
+## Type this first
+
+Type these three words and press Enter.
+
+```
+Start the kit
+```
+
+That is the whole first instruction. It is the same three words in every one of these kits.
+
+## What a good result looks like
+
+Within a few seconds the assistant tells you which kit it is reading, names itself, says in one line what this kit does, and gives you the exact next thing to type. It then offers to walk you through a worked example built on invented details, so you can see a real result before you type anything about yourself. It does not ask you for personal information to get started.
+
+If that is not what you see, [docs/STUCK.md](docs/STUCK.md) gives one next action for each of the common stumbles.
+
+## Privacy and safety
+
+The kit has no account, no server, and no telemetry, and it does not upload anything on its own. The files the assistant reads, and everything you type, are sent to that assistant's provider as part of the conversation, the same as any other chat with it. Anything you tell the kit to keep is stored only as plain text files inside this folder on your computer, where you can read, edit, or delete them. Nothing about you is needed to see the example.
+
+---
+
+Everything below is detail. You do not need it to begin.
 
 ## What is this?
 
 It is a folder of files you download onto your own computer. Inside it are written instructions in plain text, which you can open and read like any other document. When you open that folder in Claude Code and start typing, the assistant reads those instructions first, and from then on it behaves like a teacher for this one job instead of a general chatbot: it slows down, explains each new word the first time it uses it, gives you one step at a time, and asks before it changes anything. Developers call a folder like this a harness, which is why the repository is named ai-starter-harness.
 
-The instructions also save the jobs as short commands. You type `/explain terminal` instead of writing out what kind of answer you want. And anything about how you like to work lives in files inside the folder, above all `CLAUDE.md`, which is plain text you can read and change. Nothing is hidden, and nothing leaves your computer except what you type into the conversation.
+The instructions also save the jobs as short commands. You type `/explain terminal` instead of writing out what kind of answer you want. And anything about how you like to work lives in files inside the folder, above all `CLAUDE.md`, which is plain text you can read and change. Nothing is hidden.
 
 If this turns out to be useful to you, a star on the repo helps other people find it.
 
@@ -26,59 +57,55 @@ The folder is ordinary text files. Nothing in it is compiled, and nothing runs o
 
 When you point an assistant at the folder, it reads those instructions before it answers you. From then on its behavior changes for everything you ask, not just the first question. It is not a program that starts up, and nothing is installed on your computer. It is instructions the assistant chooses to follow.
 
-The saved jobs are why you can type one short word instead of re-explaining what kind of answer you want. `/start-here` picks a first project with you. `/explain` defines one term in plain English. `/first-project` builds something small with you, step by step. `/what-happened` recaps what changed. `/stuck` helps when something breaks. `/safe-mode` lists what the assistant will and will not do here.
+The saved jobs are why you can type one short word instead of re-explaining what kind of answer you want. `Start the kit` orients you. `/start-here` picks a first project with you. `/explain` defines one term in plain English. `/first-project` builds something small with you, step by step. `/what-happened` recaps what changed. `/stuck` helps when something breaks. `/safe-mode` lists what the assistant will and will not do here.
 
 Your own details live in files in the folder that you can open and edit. `CLAUDE.md` is where you change how the assistant talks to you and what it is allowed to do, in plain text, with no special syntax to learn. When you ask it to keep a log, it writes one into `notes/learning-log.md`, starting from `templates/learning-log.md`. Those files sit on your machine, and the folder does not sync or upload anything on its own.
 
 One honest limitation. An assistant follows instructions, it does not enforce them the way a locked-down program does, so the guardrails in `CLAUDE.md` are strong defaults rather than a guarantee. Read what it proposes before you say yes. Claude Code's own permission prompts stay on in this folder, and those are the part that genuinely stops and asks.
 
-## What you need first
-
-An AI assistant. This kit works with Claude Code, with Codex, or with a browser chat like ChatGPT. Claude Code is the smoothest of the three, because the folder is built for it: it reads the instructions by itself and the commands work exactly as typed.
-
-Claude Code is Anthropic's assistant that runs in a terminal window on your computer. Install it by following the official guide: https://docs.anthropic.com/en/docs/claude-code
-
-Claude Code signs in with a Claude account. If you do not have one yet, it walks you through creating one the first time you run it.
-
-If you would rather use Codex or a browser chat, download the folder first the same way, then follow `ONE-PROMPT.md` for the exact steps and the prompt to paste.
-
-## Download the kit
-
-The one-click way, straight to the zip file:
-
-https://github.com/twinturbosystems/ai-starter-harness/archive/refs/heads/main.zip
-
-Save it, then unzip it somewhere you can find again, like your Documents folder. Unzipping gives you a folder called `ai-starter-harness-main`. That folder is the kit.
-
-Two other ways to get the same folder, if you prefer them:
+## Other ways to get the same folder
 
 - On this page, click the green Code button near the top, then choose Download ZIP.
 - If you already use git: `git clone https://github.com/twinturbosystems/ai-starter-harness.git`
 
 ## Start in 60 seconds
 
-1. Open a terminal in the folder you just unzipped. A terminal is the plain text window where you type commands to your computer. On Windows, open the unzipped folder in File Explorer, click in the address bar at the top, type `cmd`, and press Enter. On a Mac, open Terminal (search for it with Spotlight), type `cd ` with a space after it, drag the folder from Finder into the Terminal window, and press Enter.
+The sixty seconds begins after the assistant is installed and the unzipped folder is open in it. Installing an assistant for the first time takes longer than that, and that is normal.
+
+1. Open a terminal in the folder you just unzipped. On Windows, open the unzipped folder in File Explorer, click in the address bar at the top, type `cmd`, and press Enter. On a Mac, open Terminal (search for it with Spotlight), type `cd ` with a space after it, drag the folder from Finder into the Terminal window, and press Enter.
 2. Type `claude` and press Enter. The first time, it asks you to sign in to your Claude account in a browser.
 3. Say yes to the trust prompt. The first time Claude Code opens a folder it has not seen before, it asks whether you trust the files in it. That is normal and it only happens once per folder. This is the folder you just downloaded, so choose yes.
-4. Type `/start-here` and press Enter. Expect two questions about what you want to make and how much time you have, then a suggested first project you can finish today.
-5. Type `/first-project` when you are ready to build. Expect a series of small steps, one at a time, ending with you opening the thing you made.
+4. Type `Start the kit` and press Enter. Expect a short orientation and the exact next thing to type.
+5. Type `/start-here` and press Enter. Expect two questions about what you want to make and how much time you have, then a suggested first project you can finish today.
+6. Type `/first-project` when you are ready to build. Expect a series of small steps, one at a time, ending with you opening the thing you made.
 
-That is the whole setup. The terminal is the only new tool you need today.
+The terminal is the only new tool you need today.
 
 ## Set it up in your assistant
 
 Downloading the folder above is still the first step. This is how you switch that folder on inside the assistant you already use.
 
-- Claude Code: no prompt needed. Open a terminal in the folder, run `claude`, accept the one-time trust prompt, and type a command. That is the five steps above.
+- Claude Code: no prompt needed. Open a terminal in the folder, run `claude`, accept the one-time trust prompt, and type `Start the kit`. That is the steps above. Claude Code reads the instructions by itself and the commands work exactly as typed.
 - Codex CLI: run it inside the folder. It reads `AGENTS.md` by itself, and one short paste-in prompt covers the rest.
-- ChatGPT or another browser chat: there is no folder there, so you attach the instruction files to the chat and paste one setup prompt.
+- Limited browser mode, which means ChatGPT, Claude in a browser, or any other chat window on a website: there is no folder there, so you attach the instruction files to the chat and paste one setup prompt. Read the limits below before you choose this path.
 
-The exact steps and copy-ready prompts for all three are in [ONE-PROMPT.md](ONE-PROMPT.md).
+The copy-ready prompts for all three are in the [browser-prompts](browser-prompts/) folder, in plain view rather than inside the hidden `.claude` directory. [ONE-PROMPT.md](ONE-PROMPT.md) is the short guide that points at them.
+
+## Limited browser mode
+
+A chat window on a website cannot reach your computer. That is a hard limit of the browser, not a setting anyone can change. In limited browser mode this kit cannot:
+
+- operate the folder you downloaded, so it cannot read or write any file in it unless you attach the file by hand
+- save your progress locally, so nothing carries over to the next chat
+- build a finished package of files for you
+
+What it can do is real and often enough: give advice, analysis, drafts, and copy-ready checklists you paste somewhere yourself. Nothing typed into a browser chat runs this kit. To actually run the kit, use Claude Code or the Codex CLI on a computer.
 
 ## What you can type
 
-Six commands. Each one is a conversation, not a form.
+One starting instruction and six commands. Each one is a conversation, not a form.
 
+- `Start the kit`, or `/start`, orients you: which kit this is, what it does, what to type next, and an offer to see a worked example first.
 - `/start-here` asks you two questions, then helps you pick a first project you can finish today.
 - `/explain` gives you a plain-English explanation of any term, with one analogy and one example.
 - `/first-project` builds one small real thing with you, with checkpoints, and ends with you opening it.
@@ -86,7 +113,7 @@ Six commands. Each one is a conversation, not a form.
 - `/stuck` helps when something goes wrong: three questions first, then a fix, together.
 - `/safe-mode` shows exactly what the assistant will and will not do in this folder, and how to change that.
 
-The first three to reach for: `/start-here` to get oriented, `/explain` followed by any word you just saw and did not understand, and `/first-project` when you are ready to build. If anything goes wrong at any point, type `/stuck`.
+The first three to reach for: `Start the kit` to get oriented, `/explain` followed by any word you just saw and did not understand, and `/first-project` when you are ready to build. If anything goes wrong at any point, type `/stuck` or read [docs/STUCK.md](docs/STUCK.md).
 
 ## It will not fit you perfectly
 
@@ -123,7 +150,7 @@ I have spent fourteen years in security and I now build real things with AI agen
 
 ## The other three kits
 
-Same idea, different job. Each is a separate folder you download the same way.
+Same idea, different job. Each is a separate folder you download the same way, and each one starts with the same three words.
 
 Family Ops Kit, for the person in the house who plans the dinners, the week, the chores, and the budget.
 Download: https://github.com/twinturbosystems/family-ops-harness/archive/refs/heads/main.zip
@@ -140,6 +167,8 @@ Read first: https://github.com/twinturbosystems/govcon-starter-harness
 ## More
 
 - Everything I make, in one place: https://ibrahim.build/links
+- When something goes wrong: `docs/STUCK.md`
+- Paste-ready prompts: `browser-prompts/`
 - Codex users: see `AGENTS.md`
 
 Ibrahim Builds is a creator brand from Beit Systems LLC.
