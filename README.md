@@ -5,19 +5,30 @@ This kit helps you build one small, real thing today, without knowing how to cod
 ## What you need first
 
 - A Mac, Windows, or Linux computer.
-- An account with an AI assistant. Claude Code is the smoothest, because this folder is built for it. Install it from the official guide at https://docs.anthropic.com/en/docs/claude-code and it walks you through creating a Claude account the first time you run it.
+- One of the three assistant choices below. You do not need to install anything if you choose limited browser mode.
 
 Choose a kit now, then finish setup on a Mac, Windows, or Linux computer. On your phone? Save this page and come back to it there.
+
+## Choose how you will use it
+
+Pick one path before you start:
+
+1. Claude Code gives the full folder experience. It requires access through a Claude Pro, Max, Team, Enterprise, or Console account. The free Claude plan does not include Claude Code. Use the current official install guide: https://code.claude.com/docs/en/installation
+2. Codex CLI also gives the full folder experience. Use the current official install guide: https://learn.chatgpt.com/docs/codex/cli
+3. Limited browser mode works in a normal ChatGPT, Claude, or other browser chat. It can give advice, drafts, and copy-ready text, but it cannot operate the downloaded folder or save work on your computer. Use the single visible file in [browser-prompts/browser-kit.md](browser-prompts/browser-kit.md).
+
+If you already have Claude Code or Codex CLI, use it. If you do not want to install a command-line assistant yet, start with limited browser mode and expect the limits above.
 
 ## Download the kit
 
 https://github.com/twinturbosystems/ai-starter-harness/archive/refs/heads/main.zip
 
-## Three steps to set it up
+## Set up the full folder
 
 1. Unzip the file you just downloaded. You get a folder called `ai-starter-harness-main`.
-2. Open a terminal in that folder and type `claude`, then press Enter. A terminal is the plain text window where you type commands to your computer.
-3. Say yes when it asks whether you trust the files in this folder. It asks once per folder.
+2. Open a terminal in that folder. A terminal is the plain text window where you type commands to your computer. On Windows, open the folder in File Explorer, click the address bar, type `cmd`, and press Enter. On Mac, open Terminal, type `cd ` with a space, drag the folder from Finder into Terminal, and press Enter. On Linux, open the folder in your file manager, right-click an empty area, and choose Open in Terminal when that option is available.
+3. Type `claude` for Claude Code or `codex` for Codex CLI, then press Enter.
+4. If it asks whether you trust the folder, check that the folder name is `ai-starter-harness-main`, then approve that folder. This is different from later permission prompts. Read each later request and approve only an action you expected.
 
 ## Type this first
 
@@ -45,7 +56,7 @@ Everything below is detail. You do not need it to begin.
 
 ## What is this?
 
-It is a folder of files you download onto your own computer. Inside it are written instructions in plain text, which you can open and read like any other document. When you open that folder in Claude Code and start typing, the assistant reads those instructions first, and from then on it behaves like a teacher for this one job instead of a general chatbot: it slows down, explains each new word the first time it uses it, gives you one step at a time, and asks before it changes anything. Developers call a folder like this a harness, which is why the repository is named ai-starter-harness.
+It is a folder of files you download onto your own computer. Inside it are written instructions in plain text, which you can open and read like any other document. When you open that folder in Claude Code or Codex CLI and start typing, the assistant reads those instructions first. From then on it behaves like a teacher for this one job instead of a general chatbot: it slows down, explains each new word the first time it uses it, gives you one step at a time, and asks before it changes anything.
 
 The instructions also save the jobs as short commands. You type `/explain terminal` instead of writing out what kind of answer you want. And anything about how you like to work lives in files inside the folder, above all `CLAUDE.md`, which is plain text you can read and change. Nothing is hidden.
 
@@ -72,24 +83,24 @@ One honest limitation. An assistant follows instructions, it does not enforce th
 
 The sixty seconds begins after the assistant is installed and the unzipped folder is open in it. Installing an assistant for the first time takes longer than that, and that is normal.
 
-1. Open a terminal in the folder you just unzipped. On Windows, open the unzipped folder in File Explorer, click in the address bar at the top, type `cmd`, and press Enter. On a Mac, open Terminal (search for it with Spotlight), type `cd ` with a space after it, drag the folder from Finder into the Terminal window, and press Enter.
-2. Type `claude` and press Enter. The first time, it asks you to sign in to your Claude account in a browser.
-3. Say yes to the trust prompt. The first time Claude Code opens a folder it has not seen before, it asks whether you trust the files in it. That is normal and it only happens once per folder. This is the folder you just downloaded, so choose yes.
+1. Open a terminal in the folder you just unzipped. On Windows, open the unzipped folder in File Explorer, click in the address bar at the top, type `cmd`, and press Enter. On Mac, open Terminal (search for it with Spotlight), type `cd ` with a space after it, drag the folder from Finder into the Terminal window, and press Enter. On Linux, open the folder in your file manager, right-click an empty area, and choose Open in Terminal when that option is available.
+2. Type `claude` for Claude Code or `codex` for Codex CLI, then press Enter. Follow the sign-in instructions shown by the assistant.
+3. If a folder trust prompt appears, read the folder path. Approve it only when it names the `ai-starter-harness-main` folder you just downloaded. For any later permission prompt, read the requested action and path, and approve it only if it matches the step you asked for.
 4. Type `Start the kit` and press Enter. Expect a short orientation and the exact next thing to type.
 5. Type `/start-here` and press Enter. Expect two questions about what you want to make and how much time you have, then a suggested first project you can finish today.
 6. Type `/first-project` when you are ready to build. Expect a series of small steps, one at a time, ending with you opening the thing you made.
 
-The terminal is the only new tool you need today.
+For the full folder path, the terminal is the only new tool you need today.
 
 ## Set it up in your assistant
 
 Downloading the folder above is still the first step. This is how you switch that folder on inside the assistant you already use.
 
-- Claude Code: no prompt needed. Open a terminal in the folder, run `claude`, accept the one-time trust prompt, and type `Start the kit`. That is the steps above. Claude Code reads the instructions by itself and the commands work exactly as typed.
+- Claude Code: no prompt needed. Open a terminal in the folder, run `claude`, confirm that any trust prompt names the folder you downloaded, and type `Start the kit`. Claude Code reads the instructions by itself and the commands work exactly as typed.
 - Codex CLI: run it inside the folder. It reads `AGENTS.md` by itself, and one short paste-in prompt covers the rest.
 - Limited browser mode, which means ChatGPT, Claude in a browser, or any other chat window on a website: there is no folder there, so you attach the instruction files to the chat and paste one setup prompt. Read the limits below before you choose this path.
 
-The copy-ready prompts for all three are in the [browser-prompts](browser-prompts/) folder, in plain view rather than inside the hidden `.claude` directory. [ONE-PROMPT.md](ONE-PROMPT.md) is the short guide that points at them.
+The copy-ready prompts for all three are in the [browser-prompts](browser-prompts/) folder, in plain view rather than inside the hidden `.claude` directory. Limited browser mode needs only [browser-prompts/browser-kit.md](browser-prompts/browser-kit.md). [ONE-PROMPT.md](ONE-PROMPT.md) is the short guide that points at them.
 
 ## Limited browser mode
 

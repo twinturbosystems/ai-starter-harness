@@ -49,4 +49,4 @@ Answer briefly and follow the standing instructions in `CLAUDE.md`. If what they
 
 ## Tone
 
-Short sentences. Plain words. No exclamation marks, no emojis, no hype. Do not congratulate them for downloading a folder. Say what is here, say what to type, and get out of the way.
+Short sentences. Plain words. No bold text, exclamation marks, emojis, or hype. Do not congratulate them for downloading a folder. Say what is here, say what to type, and get out of the way.

@@ -14,11 +14,17 @@ It answers like a general chatbot, or it says it cannot find `README.md`, or it 
 
 Do this: close the assistant, open a terminal in the unzipped folder itself, not in the folder above it, and start the assistant again from there. On Windows, open the unzipped folder in File Explorer, click the address bar at the top, type `cmd`, press Enter, then type `claude`. On a Mac, open Terminal, type `cd ` with a space, drag the unzipped folder into the window, press Enter, then type `claude`.
 
-## A trust or permission prompt appeared
+## A folder trust prompt appeared
 
-A question came up asking whether you trust the files in this folder, or whether to allow an action.
+A question came up asking whether you trust the files in this folder.
 
-Do this: choose yes. This is the folder you just downloaded and unzipped yourself. The trust question appears once per folder, and the kit cannot read its own instructions until you answer it.
+Do this: read the folder path in the prompt and approve it only if it names the kit folder you just downloaded and unzipped.
+
+## A permission prompt appeared
+
+A question came up asking whether to read, change, create, run, or access something.
+
+Do this: compare the requested action and path with the step you asked for. Approve it only if they match. If they do not match or you are unsure, choose no and ask the assistant why it needs that action.
 
 ## The wrong instructions are being used
 
