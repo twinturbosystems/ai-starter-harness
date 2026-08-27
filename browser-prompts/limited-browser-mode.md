@@ -14,23 +14,19 @@ What it can do is real: advice, analysis, drafts, and copy-ready checklists that
 
 ## How to set it up
 
+Anything you type or attach is sent to the provider that runs the chat. The file below contains kit instructions, not your personal information. Review any personal detail before you add it later.
+
 1. Unzip the downloaded folder.
 2. Start a new chat.
-3. Attach these files from the folder:
-   - `CLAUDE.md`
-   - `.claude/skills/start-here/SKILL.md`
-   - `.claude/skills/explain/SKILL.md`
-   - `.claude/skills/first-project/SKILL.md`
-
-   Attach the `stuck`, `what-happened`, and `safe-mode` SKILL.md files from the same skills folder as well if you want those jobs in the same chat.
+3. Attach one visible file: `browser-prompts/browser-kit.md`.
 4. Paste this:
 
 ```
-I have attached the instruction files for a beginner teaching kit. Read all of them before you answer anything. Treat CLAUDE.md as your standing instructions for this whole conversation: follow it exactly, including its tone, its one-step-at-a-time rule, and its rule about explaining every technical term the first time it appears. Treat each attached SKILL.md as one named job triggered by its command word, so when I type start-here you follow the start-here SKILL.md, and when I type explain you follow that one. You are running in limited browser mode, so you cannot see or change the folder on my computer: do not claim to have read, written, or saved any file, and give me text I can copy instead. I am new to this and may be new to the terminal, so do not assume I know a word before you have defined it. If I ask for something the attached files do not cover, ask me rather than assuming. Start by telling me in one line which jobs you now have, then wait for me.
+Read the attached browser-kit.md before answering. Follow it as the standing instructions for this conversation. Start by telling me in one line which jobs are available, then wait for me.
 ```
 
 ## Two plain notes
 
-Browser chats do not keep files between conversations, so attach the files again each time you start a new chat.
+Browser chats do not keep files between conversations, so attach `browser-kit.md` again each time you start a new chat.
 
-Anything you type or attach there is sent to that provider, so leave out anything you would not want to send.
+Leave out anything you would not want to send to the provider.

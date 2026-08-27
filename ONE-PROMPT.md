@@ -12,7 +12,7 @@ The prompts themselves now live in the [browser-prompts](browser-prompts/) folde
 
 ## 1. Claude Code
 
-No prompt at all. Claude Code reads `CLAUDE.md` and the `.claude/skills` folder by itself. Open a terminal in the folder, type `claude`, say yes to the one-time trust prompt, then type `Start the kit`.
+No prompt at all. Claude Code reads `CLAUDE.md` and the `.claude/skills` folder by itself. Open a terminal in the folder, type `claude`, confirm that any trust prompt names the folder you downloaded, then type `Start the kit`. Read later permission requests before deciding.
 
 If it answers like a general chatbot instead of a patient teacher, the nudge prompt is in [browser-prompts/claude-code.md](browser-prompts/claude-code.md).
 
@@ -24,7 +24,7 @@ Codex reads `AGENTS.md` automatically when you run it inside this folder. Paste 
 
 This is ChatGPT, Claude in a browser, or any other chat window on a website. It cannot operate the folder you downloaded, it cannot save your progress locally, and it cannot build final packages of files. It can give you advice, analysis, drafts, and copy-ready checklists. Nothing typed into a browser chat runs this kit.
 
-The file list to attach and the prompt to paste are in [browser-prompts/limited-browser-mode.md](browser-prompts/limited-browser-mode.md).
+Attach the single visible file [browser-prompts/browser-kit.md](browser-prompts/browser-kit.md). The short prompt to paste is in [browser-prompts/limited-browser-mode.md](browser-prompts/limited-browser-mode.md).
 
 ## 4. Do not have Claude Code or Codex yet?
 
